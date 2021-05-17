@@ -1,0 +1,8 @@
+.aboutContainer {
+  box-sizing: border-box;
+  width: 87%;
+  position: absolute;
+  right: 0;
+  background: #2b4f60;
+  height: 100vh;
+}

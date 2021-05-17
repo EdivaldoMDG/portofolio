@@ -1,0 +1,10 @@
+.headerContainer {
+  background: #001529;
+  width: 28vh;
+  height: 100vh;
+  padding-top: 160px;
+  position: fixed;
+}
+.main {
+  display: flex;
+}
