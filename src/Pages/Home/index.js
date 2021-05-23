@@ -6,7 +6,7 @@ export default function Home() {
     return (
       <Layout>
         <div className="homeContainer">
-          <div className="content">
+          <div className="contentHome">
             <div className="imagem">
               <img src={image} height="100%" width="100%" alt="perfil"/>
             </div>

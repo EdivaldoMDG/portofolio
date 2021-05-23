@@ -22,9 +22,7 @@ export const Routes = () => {
         <Route path="/about" exact>
           <About />
         </Route>
-        <Route path="/login" exact>
-          <LogIn />
-          </Route>   
+         
         <Route path="/projects" exact>
             <Projects />
         </Route>       

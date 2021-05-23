@@ -1,6 +1,7 @@
-import React from 'react'
-import SideBar from '../Sidebar'
-import '../Layout/index.css'
+import React from 'react';
+import SideBar from '../Sidebar';
+import Footer from '../Footer'
+import '../Layout/index.css';
 
 export default function Layout(props) {
     return (
@@ -10,7 +11,9 @@ export default function Layout(props) {
             </div>
             <div className="content">
                  {props.children}
+                 <Footer/>
              </div>
+             
         </div>
     )
 }

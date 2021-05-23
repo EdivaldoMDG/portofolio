@@ -1,8 +1,23 @@
 .projectsContainer {
-  box-sizing: border-box;
-  width: 87%;
-  position: absolute;
-  right: 0;
+  width: 100%;
   background: #2b4f60;
-  height: 100vh;
+  height: 100%;
+}
+
+h1 {
+  margin: 20px;
+}
+.resume {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.projectList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #f5f5f5;
 }

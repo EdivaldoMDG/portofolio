@@ -1,10 +1,18 @@
 .headerContainer {
   background: #001529;
-  width: 28vh;
-  height: 100vh;
-  padding-top: 160px;
-  position: fixed;
+  width: 15%;
+  height: 100%;
+  display: flex;
 }
 .main {
   display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+.content {
+  display: flex;
+  width: 85%;
+  height: 100%;
+  flex-direction: column;
 }
