@@ -16,19 +16,18 @@ import Admin from './Pages/Admin';
 export const Routes = () => {
     return (
         <Switch>
-           <Route path="/admin" exact>
-          <Admin />
-        </Route>
-        <Route path="/about" exact>
-          <About />
-        </Route>
-         
-        <Route path="/projects" exact>
+          <Route path="/admin" exact>
+            <Admin />
+          </Route>
+          <Route path="/about" exact>
+            <About />
+          </Route>
+          <Route path="/projects" exact>
             <Projects />
-        </Route>       
-        <Route path="/" exact>
-          <Home />
-        </Route>
+          </Route>       
+          <Route path="/" exact>
+            <Home />
+          </Route>
       </Switch>
     )
 }

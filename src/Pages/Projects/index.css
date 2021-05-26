@@ -16,8 +16,12 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 h1 {
   color: #f5f5f5;
+}
+.projectList div {
+  margin: 0 5px;
 }
